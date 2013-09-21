@@ -40,9 +40,7 @@ namespace DemoApp
                             {
                                 sb.Append(morphemes[j]);
                                 sb.Append(", ");
-                            //    Trace.Write(morphemes[j]);
                             }
-                            //Trace.Write(", ");
                         }
                     }
                 }

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>NHanNanum</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NHanNanum</RootNamespace>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ProjectGuid>{90781225-7CFE-4123-AEA0-FCDCCDD1C602}</ProjectGuid>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\comm\CommObject.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\comm\Eojeol.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\comm\PlainSentence.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\comm\Sentence.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\comm\SetOfSentences.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\exception\ResultTypeException.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\exception\TagMappingException.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\hannanum\Workflow.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\hannanum\WorkflowFactory.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\AnalyzedDic.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\ChartMorphAnalyzer.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\Connection.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\ConnectionNot.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\Exp.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\MorphemeChart.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\NumberDic.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\PostProcessor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\SegmentPosition.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\Simti.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\ChartMorphAnalyzer\Trie.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\MorphAnalyzer\MorphAnalyzer.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\PosTagger\HmmPosTagger\HMMTagger.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\PosTagger\HmmPosTagger\PhraseTag.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\PosTagger\HmmPosTagger\ProbabilityDBM.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\MajorPlugin\PosTagger\PosTagger.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\Plugin.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\MorphemeProcessor\MorphemeProcessor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\MorphemeProcessor\SimpleMAResult09\SimpleMAResult09.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\MorphemeProcessor\SimpleMAResult22\SimpleMAResult22.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\MorphemeProcessor\UnknownMorphProcessor\UnknownProcessor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PlainTextProcessor\InformalSentenceFilter\InformalSentenceFilter.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PlainTextProcessor\PlainTextProcessor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PlainTextProcessor\SentenceSegmentor\SentenceSegmentor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PosProcessor\NounExtractor\NounExtractor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PosProcessor\PosProcessor.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PosProcessor\SimplePOSResult09\SimplePOSResult09.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\plugin\SupplementPlugin\PosProcessor\SimplePOSResult22\SimplePOSResult22.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\share\Code.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\share\JSONReader.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\share\TagMapper.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\share\TagSet.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\thread\MorphAnalyzerThread.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\thread\MorphemeProcThread.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\thread\PlainTextProcThread.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\thread\PosProcThread.cs" />
+    <Compile Include="kr\ac\kaist\swrc\jhannanum\thread\PosTaggerThread.cs" />
+    <Compile Include="kr\Net\AbstractBlockingQueue.cs" />
+    <Compile Include="kr\Net\AbstractCollection.cs" />
+    <Compile Include="kr\Net\AbstractQueue.cs" />
+    <Compile Include="kr\Net\IBlockingQueue.cs" />
+    <Compile Include="kr\Net\IQueue.cs" />
+    <Compile Include="kr\Net\LinkedBlockingQueue.cs" />
+    <Compile Include="kr\Net\StringExtension.cs" />
+    <Compile Include="kr\Net\StringTokenizer.cs" />
+    <Compile Include="org\json\JSONArray.cs" />
+    <Compile Include="org\json\JSONException.cs" />
+    <Compile Include="org\json\JSONObject.cs" />
+    <Compile Include="org\json\JSONString.cs" />
+    <Compile Include="org\json\JSONStringer.cs" />
+    <Compile Include="org\json\JSONTokener.cs" />
+    <Compile Include="org\json\JSONWriter.cs" />
+    <Compile Include="SupportClass.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

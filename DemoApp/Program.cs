@@ -13,7 +13,7 @@ namespace DemoApp
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             Workflow workflow = WorkflowFactory.getPredefinedWorkflow(WorkflowFactory.WORKFLOW_NOUN_EXTRACTOR);
 
             try
